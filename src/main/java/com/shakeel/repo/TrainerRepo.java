@@ -12,7 +12,7 @@ public interface TrainerRepo {
 
 	public List<Trainer> findAll();
 
-	public void Update(Trainer trn);
+	public void update(Trainer trn);
 
 	public void deleteById(int id);
 

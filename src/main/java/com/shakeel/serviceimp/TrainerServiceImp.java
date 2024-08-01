@@ -33,7 +33,7 @@ public class TrainerServiceImp implements TrainerService {
 
 	@Override
 	public void updateTrainer(Trainer trn) {
-		repo.Update(trn);
+		repo.update(trn);
 
 	}
 

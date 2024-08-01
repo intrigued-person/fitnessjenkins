@@ -33,7 +33,7 @@ public class TrainerRepoImp implements TrainerRepo {
 
 	}
 
-	public void Update(Trainer trn) {
+	public void update(Trainer trn) {
 		emanager.merge(trn);
 
 	}
